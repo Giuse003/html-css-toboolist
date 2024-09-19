@@ -31,7 +31,6 @@ main {
     width: 70%;
     margin: 0 auto;
     background-color: white;
-    border-radius: 20%;
 }
 
 main section {
@@ -78,4 +77,104 @@ section#tasks h3::before {
     margin-right: 5px;
     display: inline-block;
     font-size: 14px;
+}
+
+/* New Task */
+
+section#tasks .tasks li {
+    margin-bottom: 5px;
+}
+
+section#tasks .tasks .label {
+    display: inline-block;
+}
+
+section#tasks .tasks .status {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+section#tasks .tasks .status.check {
+    border-color: green;
+    color: green;
+}
+
+section#tasks .tasks .status.cross {
+    border-color: red;
+    color: red;
+}
+
+section#tasks .tasks .label {
+    background-color: gray;
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+section#tasks .tasks .label.editorial {
+    background-color: #09a9ed;
+}
+
+section#tasks .tasks .label.recruting {
+    background-color: #2cc6ab;
+}
+
+/* Today */
+
+section#tasks .today li {
+    margin-bottom: 5px;
+}
+
+section#tasks .today .label {
+    display: inline-block;
+}
+
+section#tasks .today .status {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+section#tasks .today .status.check {
+    border-color: green;
+    color: green;
+}
+
+section#tasks .today .status.cross {
+    border-color: red;
+    color: red;
+}
+
+section#tasks .today .label {
+    background-color: gray;
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+section#tasks .today .label.editorial {
+    background-color: #09a9ed;
+}
+
+section#tasks .today .label.q1-goals {
+    background-color: rgb(204, 29, 204);
+}
+
+section#tasks .today .label.recruting {
+    background-color: #2cc6ab;
+}
+
+section#tasks .today .label.mobile {
+    background-color: orange;
 }
