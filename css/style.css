@@ -178,3 +178,53 @@ section#tasks .today .label.recruting {
 section#tasks .today .label.mobile {
     background-color: orange;
 }
+
+/* Upcoming */
+
+section#tasks .upcoming li {
+    margin-bottom: 5px;
+}
+
+section#tasks .upcoming .label {
+    display: inline-block;
+}
+
+section#tasks .upcoming .status {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+section#tasks .upcoming .status.check {
+    border-color: green;
+    color: green;
+}
+
+section#tasks .upcoming .status.cross {
+    border-color: red;
+    color: red;
+}
+
+section#tasks .upcoming .label {
+    background-color: gray;
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+section#tasks .upcoming .label.website {
+    background-color: rgb(233, 56, 189);
+}
+
+section#tasks .upcoming .label.sales {
+    background-color: rgb(146, 190, 23);
+}
+
+section#tasks .upcoming .label.editorial {
+    background-color: #09a9ed;
+}
