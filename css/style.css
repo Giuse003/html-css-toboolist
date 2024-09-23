@@ -90,6 +90,7 @@ section#tasks .tasks .label {
 }
 
 section#tasks .tasks .status {
+    display: inline-block;
     width: 20px;
     height: 20px;
     text-align: center;
@@ -136,6 +137,7 @@ section#tasks .today .label {
 }
 
 section#tasks .today .status {
+    display: inline-block;
     width: 20px;
     height: 20px;
     text-align: center;
@@ -190,6 +192,7 @@ section#tasks .upcoming .label {
 }
 
 section#tasks .upcoming .status {
+    display: inline-block;
     width: 20px;
     height: 20px;
     text-align: center;
